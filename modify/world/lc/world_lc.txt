@@ -1,0 +1,23 @@
+[FINDLINESTART] LC_rooftophop
+[REPLACE_1] LC_rooftophop : LC_C10, LC_tallestconnection, LC_tripletower, LC_betweenwalls
+[MERGE]
+ROOMS
+LC_tripletower : LC_rooftophop, DISCONNECTED, DISCONNECTED, DISCONNECTED, LC_circuitbreaker
+LC_circuitbreaker : DISCONNECTED, LC_citysideshelter, LC_boxroom, LC_tripletower
+LC_citysideshelter : LC_circuitbreaker : SHELTER
+LC_boxroom : DISCONNECTED, LC_circuitbreaker, LC_boxhub
+LC_boxhub : DISCONNECTED, LC_shaft1, DISCONNECTED, LC_boxroom
+LC_shaft1 : DISCONNECTED, LC_flatwall, DISCONNECTED, LC_lingobox, LC_boxhub
+LC_flatwall : LC_doublespire, LC_shaft1
+LC_doublespire : DISCONNECTED, LC_interlude, LC_flatwall
+LC_interlude : LC_doublespire, LC_boxbalance
+LC_boxbalance : LC_interlude
+LC_lingobox : DISCONNECTED, DISCONNECTED, DISCONNECTED, LC_alpharoom, LC_shaft1 
+LC_alpharoom : LC_lingobox, LC_girderbridge
+LC_girderbridge : LC_alpharoom, LC_fanboxes
+LC_fanboxes : LC_girderbridge
+END ROOMS
+CREATURES
+LINEAGE : LC_flatwall : 2 : Scavenger-1.0 : Elite-0
+END CREATURES
+[ENDMERGE]

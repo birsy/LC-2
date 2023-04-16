@@ -1,0 +1,13 @@
+Template: NONE
+DangerType: None
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.1521739
+Grime: 0
+BkgDroneVolume: 0
+BkgDroneNoThreatVolume: 0
+Palette: 109
+Effects: Dustpuffs-0-385-79, DayNight-1-20-20, SkyBloom-1-29-84, Bloom-1-270-177, RockFlea-0.2282609-284-244, 
+PlacedObjects: LightFixture><900.0657><595.0775><RedLight~17.32051~-10~72, LightFixture><761.3784><171.5913><RedLight~17.32051~-10~61, CustomDecal><310.1034><65.13606><-146~641~798~645~440~-57~701~-64~0~1~1~blackrust1~0.5108696~1~0.5108696~1~0.5108696~1~0.5108696~1, DayNightSettings><320.8199><299.337><5~8.660254~8~110, 
+AmbientSounds: SPOT><SO_NAT-WindTunnel.ogg><462.9794><350.6989><0.4021739><1.195652><573.9794><551.6989><-192.3553><-78.35535><0><0.219566, SPOT><SO_SFX-Pi.ogg><735.4797><221.301><0.5><1.254348><943.4797><133.301><-187.3553><-74.35535><0><0.1, SPOT><SO_SFX-Data4.ogg><191.9493><286.7667><0.5760869><1><479.9493><32.76669><243.6447><-146.3553><1><0.1326088, OMNI><AM_IND-SuperStructure.ogg><770.5721><489.1585><0.3152174><1, 
+FadePalette: 108, 0.2717391

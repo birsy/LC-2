@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: None
+Clouds: 0.1195652
+Grime: 0
+BkgDroneVolume: 0
+BkgDroneNoThreatVolume: 0
+Palette: 108
+Effects: RoofTopView-1-35-93, Dustpuffs-0-385-79, DayNight-1-20-20, 
+PlacedObjects: CustomDecal><89.63135><3.911163><0~227~142~232~146~0~-542~-52.99998~0.6413044~1~1~cityred~0.4456522~1~0.7934783~1~0.6630435~1~0.7934783~1, CustomDecal><256.5529><169.7145><-3~115~159~117~158~1~177.0001~18~0~1~1~citypurple~0.7934783~1~0.3369565~1~0~1~1~1, CustomDecal><288.9464><404.7136><-3~120~150~122~146~1~151~-583~0~0.2173913~1~citygreen~0.8804348~1~0.2934783~1~0~1~0.6630435~1, CustomDecal><-114.4163><-35.13893><-144~942~857~752~856~0~-392~322~0~1~1~runningwhite~0.4782609~1~0~1~0~1~0.423913~1, SteamPipe><241.4706><409.3022><-45~-76, DayNightSettings><-96.15198><420.63><5~8.660254~111~110, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><734.8721><430.1584><0.3478261><0.6673913, OMNI><AM_ENV-CityTone.ogg><751.8011><565.7706><0.326087><1.313043, 
+FadePalette: 12, 0.09782609

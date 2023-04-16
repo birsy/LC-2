@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0.2608696
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.2065217
+Grime: 0
+BkgDroneVolume: 0.2282609
+BkgDroneNoThreatVolume: 0
+RandomItemDensity: 0.9347826
+RandomItemSpearChance: 0.4065217
+Palette: 109
+EffectColorA: 15
+Effects: Dustpuffs-0-385-79, DayNight-1-20-20, SkyBloom-1-29-84, Bloom-1-270-177, RockFlea-0.2282609-284-244, 
+PlacedObjects: DayNightSettings><320.8199><299.337><5~8.660254~111~110, CustomDecal><257.0764><-18.65068><-173~675~830~708~728~-33~-283~302~0.1413043~1~1~blackcloud~0.2282609~1~0.1521739~1~0.6304348~1~0.3586957~1, SteamPipe><515.5841><611.0685><40~-16, HangingPearls><568.5566><638.199><, HangingPearls><663.4612><674.9462><, HangingPearls><600.9083><625.0723><, HangingPearls><685.8708><648.3474><, SteamPipe><718.0646><603.075><-61~-42, LightFixture><179.7791><385.9479><RedLight~17.32051~-10~0, LightFixture><955.4385><558.5597><RedLight~17.32051~-10~24, 
+AmbientSounds: SPOT><SO_SFX-DataTrans.ogg><533.9031><355.825><0.2826087><1.156522><900.9031><616.825><-72.35535><-76.35535><0><0.3391306, OMNI><AM_IND-SuperStructure.ogg><756.6948><490.7952><0.326087><1.215217, SPOT><AM_IND-ElectricHum02.ogg><627.1048><253.6703><0.2608696><1><535.1048><92.67036><-91.35535><-54.35535><0><0.3500001, 
+FadePalette: 108, 0.2065217
