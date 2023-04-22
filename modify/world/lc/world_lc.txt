@@ -3,8 +3,8 @@
 [MERGE]
 ROOMS
 LC_NEWTUNNEL : LC_cargo
-LC_cargo : LC_NEWTUNNEL, LC_NEWsplitpath 
-LC_NEWsplitpath : LC_cargo
+LC_cargo : LC_NEWsplitpath, LC_NEWTUNNEL
+LC_NEWsplitpath : DISCONNECTED, DISCONNECTED, LC_cargo
 LC_tripletower : LC_rooftophop, DISCONNECTED, DISCONNECTED, DISCONNECTED, LC_circuitbreaker
 LC_circuitbreaker : DISCONNECTED, LC_citysideshelter, LC_boxroom, LC_tripletower
 LC_citysideshelter : LC_circuitbreaker : SHELTER

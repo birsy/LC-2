@@ -6,7 +6,11 @@ RumbleIntensity: 0
 WaveSpeed: 0
 WaveLength: 0
 SecondWaveLength: 0.1666667
-Grime: 0.1847826
-Palette: 29
-FadePalette: 8, 0.2717391
+Clouds: 0.1956522
+Grime: 0.02173913
+BkgDroneVolume: 0
+Palette: 109
+PlacedObjects: CustomDecal><132.1881><46.18217><-101~591~845~657~790~-50~-231~137~0.1086956~0.6956522~1~runningwhite~0~1~0.2826087~1~1~1~0.6956522~1, 
+AmbientSounds: SPOT><SO_SFX-DataTrans.ogg><729.6972><434.4667><0.2282609><1><-28.3028><228.4667><60.64465><-107.3553><0><0.2413045, SPOT><AM_ENV-LightWind.ogg><563.4097><486.9285><0.3804348><1><-58.59027><185.9285><95.64465><-118.3553><0><0.1, SPOT><AM_ENV-LightWind.ogg><747.0607><240.1855><0.2934783><1><693.0607><230.1855><-103.3553><-204.3553><0><0.1, SPOT><SO_SFX-Data4.ogg><457.928><315.4366><0.2826087><1><318.928><529.4366><-105.3553><-106.3553><0><0.252174, OMNI><AM_IND-SuperStructure.ogg><768.45><357.2531><0.2173913><1, 
+FadePalette: 108, 0.1086956
 WetTerrain: OFF
