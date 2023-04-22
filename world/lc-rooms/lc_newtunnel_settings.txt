@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0.1956522
+RandomItemSpearChance: 0.6456521
+Palette: 12
+Effects: Dustpuffs-1-20-20, 
+PlacedObjects: SeedCob><637.0962><263.9253><0~0~7~10, DeadSeedCob><724.8163><273.0792><, DeadSeedCob><323.8826><297.8381><, 
+FadePalette: 8, 0.4021739, 0.4130435, 0.423913, 0.423913, 0.4347826
+WetTerrain: OFF

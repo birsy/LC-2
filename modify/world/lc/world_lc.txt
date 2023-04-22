@@ -2,6 +2,9 @@
 [REPLACE_1] LC_rooftophop : LC_C10, LC_tallestconnection, LC_tripletower, LC_betweenwalls
 [MERGE]
 ROOMS
+LC_NEWTUNNEL : LC_cargo
+LC_cargo : LC_NEWTUNNEL, LC_NEWsplitpath 
+LC_NEWsplitpath : LC_cargo
 LC_tripletower : LC_rooftophop, DISCONNECTED, DISCONNECTED, DISCONNECTED, LC_circuitbreaker
 LC_circuitbreaker : DISCONNECTED, LC_citysideshelter, LC_boxroom, LC_tripletower
 LC_citysideshelter : LC_circuitbreaker : SHELTER

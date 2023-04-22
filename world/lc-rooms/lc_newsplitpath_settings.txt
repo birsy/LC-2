@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0
+WaveLength: 0
+SecondWaveLength: 0.1666667
+Grime: 0.1847826
+Palette: 29
+FadePalette: 8, 0.2717391
+WetTerrain: OFF
