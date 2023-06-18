@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: None
+Clouds: 0.2065217
+Grime: 0.04347826
+Palette: 108
+EffectColorA: 7
+Effects: RoofTopView-1-20-20, Dustpuffs-1-41-66, 
+PlacedObjects: CustomDecal><13.96918><-1.052399><28~726~981~695~844~-40~0~0~0~1~0~runningwhite~0.1304348~1~0.1304348~1~0.1304348~1~0.1304348~1, 
+FadePalette: 12, 0.1195652
