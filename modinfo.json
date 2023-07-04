@@ -1,0 +1,10 @@
+{
+	"id": "lc-2",
+	"name": "Metropolis 2",
+	"version": "1.0.0",
+	"hide_version": false,
+	"authors": "CAPPIN and DAKRAS"
+	"description": "A remake of the More Slugcat Expansion's Metropolis region, made by some of the original MSC team.",
+	"requirements": ["moreslugcats"],
+	"requirements_names": ["More Slugcats Expansion"]
+}

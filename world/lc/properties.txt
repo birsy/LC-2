@@ -1,0 +1,26 @@
+Palette: 6
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+overseersSpawnChance: 21.0
+overseersMin: 8
+overseersMax: 12
+scavsDelayInitialMin: 8800
+scavsDelayInitialMax: 11200
+scavsDelayRepeatMin: 8300
+scavsDelayRepeatMax: 10900
+earlyCycleChance: 0.0
+earlyCycleFloodChance: 0.0
+playerGuideOverseerSpawnChance: 0.5
+pupSpawnChance: 0.01
+ghostRelKarmaReq: 4
+Subregion: Metropolis
+Subregion: Atop the Tallest Tower
+Subregion: The Floor
+Subregion: 12th Council Pillar, the House of Braids
+Room Setting Templates: Outside, Inside, Tower
+Room_Attr: GATE_UW_LC: MirosBird-Forbidden,Scavenger-Forbidden,ScavengerElite-Forbidden,Inspector-Forbidden,
+Room_Attr: LC_highestpoint: Vulture-Forbidden,MirosBird-Forbidden,Scavenger-Forbidden,KingVulture-Forbidden,ScavengerElite-Forbidden,Inspector-Forbidden,
+Room_Attr: LC_FINAL: StandardGroundCreature-Forbidden,Slugcat-Forbidden,LizardTemplate-Forbidden,PinkLizard-Forbidden,GreenLizard-Forbidden,BlueLizard-Forbidden,YellowLizard-Forbidden,WhiteLizard-Forbidden,RedLizard-Forbidden,BlackLizard-Forbidden,Salamander-Forbidden,CyanLizard-Forbidden,Fly-Forbidden,Leech-Forbidden,SeaLeech-Forbidden,Snail-Forbidden,Vulture-Forbidden,GarbageWorm-Forbidden,LanternMouse-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Spider-Forbidden,JetFish-Forbidden,BigEel-Forbidden,Deer-Forbidden,TubeWorm-Forbidden,DaddyLongLegs-Forbidden,BrotherLongLegs-Forbidden,TentaclePlant-Forbidden,PoleMimic-Forbidden,MirosBird-Forbidden,TempleGuard-Forbidden,Centipede-Forbidden,RedCentipede-Forbidden,Centiwing-Forbidden,SmallCentipede-Forbidden,Scavenger-Forbidden,Overseer-Forbidden,VultureGrub-Forbidden,EggBug-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,DropBug-Forbidden,KingVulture-Forbidden,Hazer-Forbidden,MirosVulture-Forbidden,SpitLizard-Forbidden,EelLizard-Forbidden,MotherSpider-Forbidden,TerrorLongLegs-Forbidden,AquaCenti-Forbidden,HunterDaddy-Forbidden,FireBug-Forbidden,StowawayBug-Forbidden,ScavengerElite-Forbidden,Inspector-Forbidden,Yeek-Forbidden,BigJelly-Forbidden,SlugNPC-Forbidden,JungleLeech-Forbidden,
+Room_Attr: OffScreenDen_LC: MirosBird-Forbidden,Inspector-Forbidden,

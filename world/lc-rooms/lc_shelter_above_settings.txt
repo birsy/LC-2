@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: None
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0
+BkgDroneVolume: 0
+Palette: 30
+Effects: DayNight-0.7934783-25-119, RoofTopView-1-23-55, 
+PlacedObjects: DayNightSettings><68.90796><472.1273><5~8.660254~35~10, SteamPipe><509.1284><362.6588><0~100, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><-89.94897><21.02039><0.01086957><0.9021739, SPOT><SO_SFX-Data4.ogg><742.2639><491.6995><0.2391304><1><511.2639><37.69952><-35.35534><-35.35534><0><0.1, OMNI><AM_ENV-WallHum.ogg><755.5654><102.327><0.2282595><1, SPOT><AM_ENV-LightWind.ogg><436.5729><441.1569><0.5><1><510.573><504.1569><-227.3553><-223.3553><0><0.08913057, 
+FadePalette: 109, 0.4021739

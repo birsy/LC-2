@@ -1,0 +1,39 @@
+ROOMS
+GATE_UW_LC : DISCONNECTED , LC_NEWTUNNEL, DISCONNECTED : GATE
+LC_NEWTUNNEL : LC_cargo, GATE_UW_LC
+LC_cargo : LC_NEWsplitpath, LC_NEWTUNNEL
+LC_NEWsplitpath : LC_shelter_above, DISCONNECTED, LC_cargo
+LC_shelter_above : LC_NEWsplitpath : SHELTER
+
+LC_circuitbreaker : DISCONNECTED, LC_citysideshelter, LC_boxroom, LC_tripletower
+LC_tripletower : LC_rooftophop, DISCONNECTED, DISCONNECTED, DISCONNECTED, LC_circuitbreaker
+LC_citysideshelter : LC_circuitbreaker : SHELTER
+LC_boxroom : DISCONNECTED, LC_circuitbreaker, LC_boxhub
+LC_boxhub : DISCONNECTED, LC_shaft1, DISCONNECTED, LC_boxroom
+LC_shaft1 : DISCONNECTED, LC_flatwall, DISCONNECTED, LC_lingobox, LC_boxhub
+LC_flatwall : LC_doublespire, LC_shaft1
+LC_doublespire : DISCONNECTED, LC_interlude, LC_flatwall
+LC_interlude : LC_doublespire, LC_boxbalance
+LC_boxbalance : LC_interlude, LC_HVAC
+LC_HVAC : LC_boxbalance, LC_suspension, LC_HVACshelter, LC_intgrid
+LC_suspension : LC_HVAC, LC_acstack
+LC_acstack : LC_suspension
+LC_HVACshelter : LC_HVAC : SHELTER
+LC_lingobox : DISCONNECTED, DISCONNECTED, DISCONNECTED, LC_alpharoom, LC_shaft1
+LC_intgrid : LC_HVAC
+LC_alpharoom : LC_lingobox, LC_girderbridge
+LC_girderbridge : LC_alpharoom, LC_fanboxes
+LC_fanboxes : LC_girderbridge
+
+LC_highestpoint : LC_FINAL
+LC_FINAL : LC_highestpoint : ARENA
+
+END ROOMS
+CREATURES
+OFFSCREEN : 0-Vulture-6, 0-KingVulture-1-{Night}, 0-Scavenger-15-{Ignorecycle}, 0-Elite-4-{Night}
+(Artificer)OFFSCREEN : 0-KingVulture-3-{Ignorecycle}, 0-Scavenger-40, 0-Elite-3-{Ignorecycle}, 0-Elite-12-{Night}
+LINEAGE : LC_flatwall : 2 : Scavenger-1.0 : Elite-0
+END CREATURES
+
+BAT MIGRATION BLOCKAGES
+END BAT MIGRATION BLOCKAGES
