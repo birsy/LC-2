@@ -13,13 +13,16 @@ LC_boxhub : DISCONNECTED, LC_shaft1, DISCONNECTED, LC_boxroom
 LC_shaft1 : DISCONNECTED, LC_flatwall, DISCONNECTED, LC_lingobox, LC_boxhub
 LC_flatwall : LC_doublespire, LC_shaft1
 LC_doublespire : DISCONNECTED, LC_interlude, LC_flatwall
-LC_interlude : LC_doublespire, LC_boxbalance
-LC_boxbalance : LC_interlude, LC_HVAC
+LC_interlude : LC_doublespire, LC_offbridge
+LC_offbridge : LC_boxbalance, LC_interlude
+LC_boxbalance : LC_offbridge, LC_HVAC
 LC_HVAC : LC_boxbalance, LC_suspension, LC_HVACshelter, LC_intgrid
 LC_suspension : LC_HVAC, LC_acstack
 LC_acstack : LC_suspension
 LC_HVACshelter : LC_HVAC : SHELTER
-LC_lingobox : DISCONNECTED, DISCONNECTED, DISCONNECTED, LC_alpharoom, LC_shaft1
+LC_lingobox : DISCONNECTED, LC_polehouses, DISCONNECTED, LC_alpharoom, LC_shaft1
+LC_polehouses : LC_lingobox
+
 LC_intgrid : LC_HVAC
 LC_alpharoom : LC_lingobox, LC_girderbridge
 LC_girderbridge : LC_alpharoom, LC_fanboxes
