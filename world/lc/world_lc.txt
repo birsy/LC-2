@@ -26,7 +26,8 @@ LC_polehouses : LC_lingobox
 LC_intgrid : LC_HVAC
 LC_alpharoom : LC_lingobox, LC_girderbridge
 LC_girderbridge : LC_alpharoom, LC_fanboxes
-LC_fanboxes : LC_girderbridge
+LC_fanboxes : LC_girderbridge, LC_warehouse
+LC_warehouse : LC_fanboxes : SWARMROOM
 
 LC_highestpoint : LC_FINAL
 LC_FINAL : LC_highestpoint : ARENA
