@@ -1,0 +1,2 @@
+[#nm:"Billboard", #tp:"variedStandard", #colorTreatment:"standard", #sz:point(2,5), #repeatL:[1,2], #vars:4, #random:1, #tags:[], #layerExceptions:[], #notes:[]]
+[#nm:"Braids Tile Prop", #tp:"variedStandard", #colorTreatment:"standard", #sz:point(3,3), #repeatL:[1], #vars:6, #random:0, #tags:[], #layerExceptions:[], #notes:[]]
