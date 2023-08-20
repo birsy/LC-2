@@ -21,7 +21,7 @@ LC_suspension : LC_HVAC, LC_acstack
 LC_acstack : LC_suspension
 LC_HVACshelter : LC_HVAC : SHELTER
 LC_lingobox : DISCONNECTED, LC_polehouses, DISCONNECTED, LC_alpharoom, LC_shaft1
-LC_polehouses : LC_lingobox
+LC_polehouses : LC_lingobox : SCAVOUTPOST
 
 LC_intgrid : LC_HVAC
 LC_alpharoom : LC_lingobox, LC_girderbridge
