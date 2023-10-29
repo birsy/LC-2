@@ -6,7 +6,7 @@ LC_NEWsplitpath : LC_shelter_above, DISCONNECTED, LC_cargo
 LC_shelter_above : LC_NEWsplitpath : SHELTER
 
 LC_circuitbreaker : DISCONNECTED, LC_citysideshelter, LC_boxroom, LC_tripletower
-LC_tripletower : LC_rooftophop, DISCONNECTED, DISCONNECTED, DISCONNECTED, LC_circuitbreaker
+LC_tripletower : DISCONNECTED, DISCONNECTED, DISCONNECTED, DISCONNECTED, LC_circuitbreaker
 LC_citysideshelter : LC_circuitbreaker : SHELTER
 LC_boxroom : DISCONNECTED, LC_circuitbreaker, LC_boxhub
 LC_boxhub : DISCONNECTED, LC_shaft1, DISCONNECTED, LC_boxroom
@@ -22,7 +22,8 @@ LC_suspension : LC_HVAC, LC_acstack
 LC_acstack : LC_suspension
 LC_HVACshelter : LC_HVAC : SHELTER
 LC_lingobox : DISCONNECTED, LC_polehouses, DISCONNECTED, LC_alpharoom, LC_shaft1
-LC_polehouses : LC_lingobox : SCAVOUTPOST
+LC_polehouses : LC_lingobox, LC_spires : SCAVOUTPOST
+LC_spires : LC_polehouses
 
 LC_intgrid : LC_HVAC
 LC_alpharoom : LC_lingobox, LC_girderbridge
