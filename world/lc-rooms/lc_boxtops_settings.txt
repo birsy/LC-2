@@ -1,0 +1,2 @@
+Effects: RoofTopView-1-20-20, HeatWave-0-30-30, 
+PlacedObjects: ReliableSpear><295.6154><298.3979><, 

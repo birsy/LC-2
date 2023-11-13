@@ -8,8 +8,9 @@ LC_shelter_above : LC_NEWsplitpath : SHELTER
 LC_circuitbreaker : DISCONNECTED, LC_citysideshelter, LC_boxroom, LC_tripletower
 LC_tripletower : DISCONNECTED, DISCONNECTED, DISCONNECTED, DISCONNECTED, LC_circuitbreaker
 LC_citysideshelter : LC_circuitbreaker : SHELTER
-LC_boxroom : DISCONNECTED, LC_circuitbreaker, LC_boxhub
-LC_boxhub : DISCONNECTED, LC_shaft1, DISCONNECTED, LC_boxroom
+LC_boxroom : disconnected, LC_circuitbreaker, LC_boxhub
+LC_boxtops : LC_boxhub
+LC_boxhub : LC_boxtops, LC_shaft1, DISCONNECTED, LC_boxroom
 LC_shaft1 : DISCONNECTED, LC_flatwall, DISCONNECTED, LC_lingobox, LC_boxhub
 LC_flatwall : LC_doublespire, LC_shaft1
 LC_doublespire : LC_leggyconnection, LC_interlude, LC_flatwall
