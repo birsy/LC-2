@@ -35,6 +35,8 @@ LC_warehouse : LC_fanboxes : SWARMROOM
 LC_highestpoint : LC_FINAL
 LC_FINAL : LC_highestpoint : ARENA
 
+LC_TEMPLEFLOOR : Disconnected
+
 END ROOMS
 CREATURES
 OFFSCREEN : 0-Vulture-6, 0-KingVulture-1-{Night}, 0-Scavenger-15-{Ignorecycle}, 0-Elite-4-{Night}
