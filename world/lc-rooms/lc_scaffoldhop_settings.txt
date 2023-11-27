@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: None
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04962811
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.09782609
+Grime: 0.1630435
+BkgDroneVolume: 0
+Palette: 30
+Effects: RoofTopView-0-20-20, 
+PlacedObjects: CustomDecal><3150.455><89.05508><-6~776~1053~816~1424~-166~0~0~0.02173913~1~0~runningwhite~0.2826087~1~0.2826087~1~0.2826087~1~0.2826087~1, CustomDecal><824.4237><69.5992><102~775~1323~739~1230~-199~89~108~0.0326087~1~1~full wall only tags~0.4130435~0.1304348~0.4130435~0.1304348~0.4130435~0.1304348~0.4130435~0.1304348, 
+FadePalette: 12, 0.1847826, 0.2065217, 0.1413043, 0.1086956
