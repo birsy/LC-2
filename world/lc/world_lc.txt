@@ -28,8 +28,10 @@ LC_spires : LC_polehouses
 LC_scaffoldhop : LC_polehouses, DISCONNECTED, LC_lingobox
 LC_intgrid : LC_HVAC
 LC_alpharoom : LC_lingobox, LC_girderbridge
-LC_girderbridge : LC_alpharoom, LC_fanboxes
-LC_fanboxes : LC_girderbridge, LC_warehouse
+LC_girderbridge : LC_alpharoom, LC_hangingvents
+LC_hangingvents : LC_girderbridge, LC_fanboxtunnel
+LC_fanboxtunnel : LC_fanboxes, LC_hangingvents
+LC_fanboxes : LC_fanboxtunnel, LC_warehouse
 LC_warehouse : LC_fanboxes : SWARMROOM
 
 LC_highestpoint : LC_FINAL
