@@ -22,7 +22,7 @@ LC_HVAC : LC_boxbalance, LC_suspension, LC_HVACshelter, LC_intgrid
 LC_suspension : LC_HVAC, LC_acstack
 LC_acstack : LC_suspension
 LC_HVACshelter : LC_HVAC : SHELTER
-LC_lingobox : DISCONNECTED, LC_scaffoldhop, DISCONNECTED, LC_alpharoom, LC_shaft1
+LC_lingobox : DISCONNECTED, LC_scaffoldhop, DISCONNECTED, LC_alpharoom, LC_shaft1, LC_crack
 LC_polehouses : LC_scaffoldhop, LC_spires : SCAVOUTPOST
 LC_spires : LC_polehouses
 LC_scaffoldhop : LC_polehouses, DISCONNECTED, LC_lingobox
@@ -33,6 +33,9 @@ LC_hangingvents : LC_girderbridge, LC_fanboxtunnel
 LC_fanboxtunnel : LC_fanboxes, LC_hangingvents
 LC_fanboxes : LC_fanboxtunnel, LC_warehouse
 LC_warehouse : LC_fanboxes : SWARMROOM
+
+LC_crack : LC_lingobox, LC_crackShelter
+LC_crackShelter : LC_crack : SHELTER
 
 LC_highestpoint : LC_FINAL
 LC_FINAL : LC_highestpoint : ARENA
