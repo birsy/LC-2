@@ -18,9 +18,11 @@ LC_interlude : LC_doublespire, LC_offbridge
 LC_offbridge : LC_leggyconnection, LC_interlude
 LC_boxbalance : LC_leggyconnection, LC_HVAC
 LC_leggyconnection : LC_doublespire, LC_offbridge, LC_boxbalance
-LC_HVAC : LC_boxbalance, LC_suspension, LC_HVACshelter, LC_intgrid
-LC_suspension : LC_HVAC, LC_acstack
-LC_acstack : LC_suspension
+LC_HVAC : LC_boxbalance, LC_suspension, LC_HVACshelter, LC_intgrid, LC_windowhall
+LC_windowhall : LC_HVAC : SCAVOUTPOST
+LC_suspension : LC_HVAC, LC_ventspoke
+LC_ventspoke : LC_suspension, LC_acstack
+LC_acstack : LC_ventspoke
 LC_HVACshelter : LC_HVAC : SHELTER
 LC_lingobox : DISCONNECTED, LC_scaffoldhop, DISCONNECTED, LC_alpharoom, LC_shaft1, LC_crack
 LC_polehouses : LC_scaffoldhop, LC_spires : SCAVOUTPOST

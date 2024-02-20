@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: None
+Clouds: 0.2065217
+Grime: 0.2065217
+Palette: 109
+EffectColorA: 14
+Effects: RoofTopView-1-0-0, 
+PlacedObjects: ScavengerOutpost><2824.304><265.2914><-67~342~-421~112~0.1668124~8~75, 
+FadePalette: 30, 0.04347826, 0.1956522, 0.1521739, 0.04347826
