@@ -1,7 +1,0 @@
-Template: NONE
-Grime: 0
-Palette: 29
-EffectColorB: 18
-Effects: SkyAndLightBloom-0.0326087-20-20, Darkness-0.5760869-21-91, 
-FadePalette: 8, 0.4347826, 0.4782609, 0.4565217, 0.4891304, 0.4673913, 0.5, 0.5217391, 0.5326087, 0.5760869, 0.5869565
-WetTerrain: OFF
