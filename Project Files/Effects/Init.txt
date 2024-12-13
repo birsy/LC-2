@@ -1,0 +1,1 @@
+[#nm:"HoneyThorn", #tp:"standardPlant", #vars:12, #pxlSz:point(96,86), #pickColor:1, #randomFlip:1, #placeAmt: 6, #szVar: [0.8, 1.2], #rotVar: 7, #strengthAffectVar: 0.5, #rootAmt: 7, #hasGrad: 1]
