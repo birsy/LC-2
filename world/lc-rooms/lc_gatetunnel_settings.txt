@@ -1,0 +1,9 @@
+Template: NONE
+Grime: 0
+Palette: 109
+EffectColorA: 13
+EffectColorB: 2
+Effects: Darkness-0.2282609-20-20, 
+PlacedObjects: ScavengerOutpost><1264.055><274.7036><-55~283~-38~155~0.2030772~81~18, 
+FadePalette: 113, 0.3152174, 0.326087, 0.2934783, 0.3043478
+WetTerrain: OFF

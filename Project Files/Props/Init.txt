@@ -1,2 +1,3 @@
 [#nm:"Billboard", #tp:"variedStandard", #colorTreatment:"standard", #sz:point(2,5), #repeatL:[1,2], #vars:4, #random:1, #tags:[], #layerExceptions:[], #notes:[]]
 [#nm:"Braids Tile Prop", #tp:"variedStandard", #colorTreatment:"standard", #sz:point(3,3), #repeatL:[1], #vars:6, #random:0, #tags:[], #layerExceptions:[], #notes:[]]
+[#nm:"Ball", #tp:"soft", #depth:10, #round:0, #contourExp:1, #selfShade:1, #highLightBorder:1.0, #depthAffectHilites:1, #shadowBorder:1, #smoothShading:10, #colorize:0, #tags:[], #notes:[]]
